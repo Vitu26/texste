@@ -1,0 +1,138 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+body{
+    height: 100%;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(96, 63, 99, 0.759);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    height: 20%;
+
+
+}
+
+
+#logo{
+    height: 40px;
+    width: 40px;
+    border: 1px transparent ;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+#nav{
+    padding-left: 10px;
+}
+
+#navigation{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+#navigation a{
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+#navigation a:hover{
+    color: aqua;
+}
+
+#section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 80%;
+}
+.conteudo{
+    width: 40%;
+}
+
+#historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+#historia h1{
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#historia p{
+    font-size: 18.8px;
+    text-align: justify-all;
+    letter-spacing: 1px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0.447);
+    border-radius: 30px;
+    height: 40rem;
+}
+
+
+.in{
+    width: 80%;
+    height: 40px;
+    border: transparent 1px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#btn{
+   background-color: rgba(75, 75, 90, 0.638); 
+   color: white;
+   width: 200px;
+   height: 60px;
+   border-radius: 20px;
+}
+
+#btn:hover{
+    background-color: rgba(41, 41, 59, 0.862);
+    color: black;
+}
+.rodape {
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 100px;
+    height: 20%;
+    border-top: solid 1px black;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+}
+.rodape i {
+    font-size: 34px;
+    margin-right: 35px;
+    color: #3d656b;
+    transition: all 0.3s;
+
+}
+.rodape i:hover {
+    color: #42352d;
+}
+.rodape a:last-of-type i {
+    margin-right: 0;
+}
